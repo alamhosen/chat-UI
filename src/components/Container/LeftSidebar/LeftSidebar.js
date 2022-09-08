@@ -24,7 +24,7 @@ const LeftSidebar = () => {
     ]
     return (
         <div className=''>
-            <div className={`${open ? 'lg:w-64 w-48' : 'lg:w-20 w-12'} hidden md:flex flex-col lg:justify-between h-screen lg:ml-8 md:ml-4 mt-6`}>
+            <div className={`${open ? 'lg:w-64 w-48' : 'lg:w-20 w-12'} hidden h-screen md:flex md:flex-col lg:justify-between lg:ml-8 md:ml-4 mt-6`}>
 
                 {/* sidebar menu top */}
                 <div>

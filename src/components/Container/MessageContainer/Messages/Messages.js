@@ -9,7 +9,7 @@ const Messages = () => {
     return (
         <div className='hidden flex-grow h-screen md:flex flex-col'>
             {/* messages header start */}
-            <div className='flex justify-between items-center border-b-2 p-3 lg:px-10 md:px-8 py-4 '>
+            <div className='flex justify-between items-center border-b-2 p-3 lg:px-10 md:px-6 py-4 '>
                 <div className='flex justify-center gap-4'>
                     <div className="avatar">
                         <div className="w-10 rounded-full ring ring-success ring-offset-base-100">
@@ -34,7 +34,6 @@ const Messages = () => {
                <div className='flex justify-end'>
                <div className='w-full lg:w-4/12 md:w-4/12 bg-blue-100 p-4 rounded-l-3xl rounded-tr-3xl mt-2'>
                     <p>Hi I am using this cat image please check and confirm</p>
-
                     <div className=' flex justify-end items-center'>
                     <p className='text-gray-400'>06:56 pm
                     </p>
